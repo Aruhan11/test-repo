@@ -4,12 +4,12 @@ import { auth } from "../firebase";
 
 const Register = () => {
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
         const email = e.target[0].value;
         const password = e.target[1].value;
         
-        const res = await createUserWithEmailAndPassword(auth, email, password)
+        // const res = await createUserWithEmailAndPassword(auth, email, password)
     }
     
     // createUserWithEmailAndPassword(auth, email, password)

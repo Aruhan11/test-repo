@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const Search = () => {
-    const [username, setUsername] = useState("")
-    const [user, setUser] = useState(null)
-    const [err, setErr] = useState(false)
+    // const [username, setUsername] = useState("")
+    // const [user, setUser] = useState(null)
+    // const [err, setErr] = useState(false)
     return(
         <div className="search">
             <div className="searchForm">
